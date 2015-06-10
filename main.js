@@ -7,7 +7,7 @@ AppComponent.annotations = [
     selector: 'my-app'
   }),
   new angular.ViewAnnotation({
-    template: '<h1>Hello world! It\'s me, Angular 2!</h1>'
+  	templateUrl: 'myTemplate.html'
   })
 ];
 document.addEventListener('DOMContentLoaded', function() {
